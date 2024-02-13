@@ -1,5 +1,5 @@
 body {
-    font-family: 'Great Vibes', cursive; /* Change to a romantic cursive font */
+    font-family: 'Georgia', cursive; /* Change to a romantic cursive font */
     background-color: #ffdde1;
     display: flex;
     align-items: center;
@@ -19,13 +19,13 @@ body {
 
 .pp, .hh, #additional-message, #additional-message2 {
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     text-shadow: 2px 2px 2px palevioletred;
 }
 
 .pp {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .hidden-message, .buttons {
