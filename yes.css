@@ -58,8 +58,8 @@ body
 
 @media (max-width: 991.98px) {
     .image {
-        width: 30%;
-        height: 20%; /* Full width for mobile screens */
+        width: 40%;
+        height: 35%; /* Full width for mobile screens */
     }
 }
 
