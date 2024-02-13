@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Valentine's Proposal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="cart.jpg"></img>
+            <h1 class="hh" id="name">Hi Pretty Ysa!</h1>
+            <p class="pp" id="question">Will you be my Valentine?<33</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">No</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Nice try, but you can't escape that easily!</p>
+            </div>
+            <div class="message" id="additional-message" style="display: none;"></div>
+            <div class="message" id="additional-message2" style="display: none;"></div>
+
+        </div>
+    </div>
+    <script src="yep.js"></script>
+</body>
+
+</html>
