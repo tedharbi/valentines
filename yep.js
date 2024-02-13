@@ -37,7 +37,7 @@ function showMessage(response) {
         // Remove name message and no button
         document.getElementById("name").remove();
         document.getElementById("no-button").remove();
-        document.getElementById("additional-message").textContent = "can't take you out on date tho, cuz im shy";
+        document.getElementById("additional-message").textContent = "can't take you out on a date tho, cuz im shy";
         document.getElementById("additional-message").style.display = "block";
         document.getElementById("additional-message2").textContent = "but i'm currently recording your song:))";
         document.getElementById("additional-message2").style.display = "block";
